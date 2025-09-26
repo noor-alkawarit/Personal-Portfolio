@@ -157,3 +157,39 @@ form input[type="submit"] {
 form input[type="submit"]:hover {
   background: #f39c12;
 }
+
+/* Footer */
+footer {
+  background: #2c3e50;
+  color: #ecf0f1;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 2rem;
+}
+
+footer p {
+  margin: 0.5rem 0;
+}
+
+footer p a {
+  color: #f39c12;
+  text-decoration: none;
+}
+
+footer p a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+  /* Add more padding for larger screens */
+  #about,
+  #projects,
+  #contact {
+    padding: 4rem 8rem;
+  }
+  /* Allow larger images on bigger screens */
+  #projects img {
+    max-width: 400px;
+  }
+}
