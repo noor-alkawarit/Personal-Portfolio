@@ -28,45 +28,53 @@
             <img src="./images/my-pic.jpg" width="250" alt="Portrait of Noor Alkawarit">
             <p>Hello! I’m Noor Alkawarit, a web developer with a degree in Computer Science from the University of Salford.
                 I love creating modern and user-friendly websites, and I enjoy solving problems, coming up with creative ideas, and building designs that are both practical and visually appealing.
-                 I am always curious and excited to keep learning new technologies so I can continue to grow as a developer.</p>
+                I am always curious and excited to keep learning new technologies so I can continue to grow as a developer.</p>
           </section>
-          
-          <section id="projects"> <!--section 2-->
+          <!-- Projects Section -->
+          <section id="projects"> 
             <h2>Projects</h2>
             <!-- project 1 -->
-            <h3>Beauty Centre Booking System:</h3>
-            <p>Allows the user to register and book a service, also make a payment.
-             The purpose of the website is to facilitate the users need to find the right service.</p>
-            <img src="./images/beautyproject.jpg" width="250" alt="Beauty Centre Project">
+            <article>
+                <h3>Beauty Centre Booking System</h3>
+                <p>Allows the user to register and book a service, and also make a payment. The purpose of the website is to facilitate the user's need to find the right service easily.</p>
+                <img src="./images/beautyproject.jpg" width="250" alt="Screenshot of Beauty Centre Project">
+            </article>
             <!-- project 2 -->
-            <h3>Car Auction:</h3>
-            <p>A car auction website is an online platform where buyers can browse, bid on, and purchase vehicles. 
-                Sellers list their cars with photos, details, and starting prices, while buyers compete in timed auctions to win the best deals.
-                The site makes it easy to compare vehicles, track bids in real time, and complete secure transactions from anywhere.</p>
-            <img src="./images/cars.jpg" width="250" alt="car auction">
+            <article>
+                <h3>Car Auction Website</h3>
+                <p>An online platform where buyers can browse, bid on, and purchase vehicles. Sellers list their cars with photos, details, and prices, while buyers compete in real-time auctions.</p>
+                <img src="./images/cars.jpg" width="250" alt="Screenshot of Car Auction Website">
+             </article>
           </section>
-          <section id="contact">  <!--section 3-->
-            <h2>contact</h2>
+          
+          <!-- Contact Section -->
+          <section id="contact"> 
+            <h2>Contact Me</h2>
             <form>
                 <!-- name input -->
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="name">
+                <input type="text" id="name" name="name" required>
+                
                 <!-- email label input -->
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email">
+                <input type="email" id="email" name="email" required>
+               
                 <!-- message label input -->
                 <label for="message">Message:</label>
-                <input type="text" id="message" name="message">
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
                 <input type="submit" value="Submit">
             </form> 
           </section>
     </main>
     <footer>
         <!-- This is the footer section -->
-         <p>© This work is reserved for Noor Alkawarit</p>
-         <p>noor@demo.com</p>
-         <p>+44 123456789</p>
-         <p>linkedIn</p>
+      <p>© 2025 Noor Alkawarit. All rights reserved.</p>
+      <p>
+        <a href="mailto:noor@demo.com">Email me</a> | 
+        <a href="tel:+44123456789">Call me</a> | 
+        <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+      </p>
     </footer>
 </body>
 </html>
